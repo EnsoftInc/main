@@ -104,6 +104,13 @@ h2 strong {
     font-weight: bold;
 }
 
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #ffffff !important;
+    background-color: #333333 !important;
+}
+
+
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
     .navbar .nav-item .dropdown-menu{ display: none; }
@@ -111,7 +118,12 @@ h2 strong {
     .navbar .nav-item .dropdown-menu{ margin-top:0;}
     h3, h4 {text-align:justify; margin:1rem;}
 	h2 { font-size:1.8rem; }
-    .dropdown-item {text-align: left;}
+    .dropdown-item {text-align: left; color: #000;}
+	.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #ffffff !important;
+    background-color: #333333 !important;
+}
 }	
 
 /* Footer */
